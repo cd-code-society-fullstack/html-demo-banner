@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Set the height of the body to 100% of the viewport */
+    display: flex;
+    flex-direction: row; /* Change the flex direction to row to allow side-by-side elements */
+  }
+  
+  .banner {
+    width: 15%; /* Set the width of the banner to 30% of the viewport width */
+    height: 100%; /* Set the height of the banner to 100% of the body height */
+    position: fixed; /* Set the position to fixed to make it float */
+    overflow: auto; /* Add a scrollbar if content overflows */
+    display: flex; /* Make banner a flex container */
+    justify-content: center; /* Center child elements vertically */
+    align-items: center; /* Center child elements horizontally */
+    background-color: gray;
+  }
+
+  .rotated-text {
+    transform: rotate(-90deg); /* Rotate the text by 90 degrees */
+    font-size: 6vh; /* Set the font size to 10% of the viewport height */
+    text-align: center;
+  }
